@@ -6,7 +6,7 @@
   <title>Fatemehzahra Janbazi</title>
   <style>
     :root{
-      --accent:#590059;   /* dark purple for most headings */
+      --accent:#590059;
       --bg:#ffffff;
       --fg:#111113;
       --muted:#5b5b5b;
@@ -23,21 +23,24 @@
     .nav a:hover{background:var(--card)}
 
     .wrap{max-width:var(--maxw);margin:0 auto;padding:24px 16px 80px}
-    .hero{display:grid;grid-template-columns:220px 1fr;gap:20px;align-items:center;margin-top:18px}
-    .hero img{width:220px;height:220px;object-fit:cover;border-radius:16px;border:1px solid var(--border)}
-    h1{font-size:2rem;margin:0;color:var(--accent)}
+    .hero{display:grid;grid-template-columns:300px 1fr;gap:30px;align-items:center;margin-top:18px}
+    .hero img{width:280px;height:280px;object-fit:cover;border-radius:20px;border:2px solid var(--border)}
+    h1{font-size:2.2rem;margin:0;color:var(--accent)}
     .subtitle{color:var(--muted);margin-top:6px}
     .meta{margin-top:8px;color:var(--muted)}
 
     section{margin-top:40px}
     section h2{font-size:1.25rem;margin:0 0 12px;border-bottom:2px solid var(--border);padding-bottom:6px;color:var(--accent)}
-    /* Override: Education & Preprints headings black */
-    #education h2, #preprints h2 {color:#000;}
-
+    #education h2, #preprints h2 {color:#000;} /* Education + Preprints black */
     ul{margin:8px 0 0;padding-left:1.1rem}
     li{margin:8px 0}
     a{color:var(--accent)}
     footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--border);color:var(--muted)}
+
+    @media (max-width:720px){
+      .hero{grid-template-columns:1fr;text-align:center}
+      .hero img{margin:0 auto;width:240px;height:240px}
+    }
   </style>
 </head>
 <body>
@@ -61,7 +64,7 @@
       <div>
         <h1>Fatemehzahra Janbazi</h1>
         <div class="subtitle">Ph.D. Candidate, Department of Mathematics, University of Toronto</div>
-        <p>I work in arithmetic statistics, arithmetic invariant theory, and arithmetic geometry — focusing on finiteness theorems for orbits of forms, Selmer group statistics, and geometric models such as K3 surfaces and rational elliptic surfaces.</p>
+        <p>I work in arithmetic statistics, arithmetic invariant theory, and arithmetic geometry.</p>
         <p class="meta">Office: Bahen Centre, 40 St George St, Toronto, ON · Email: <a href="mailto:zahra.janbazi@mail.utoronto.ca">zahra.janbazi@mail.utoronto.ca</a></p>
       </div>
     </section>
@@ -98,14 +101,7 @@
       </ul>
     </section>
 
-    <!-- Contact -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:zahra.janbazi@mail.utoronto.ca">zahra.janbazi@mail.utoronto.ca</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/zahrajanbazi" target="_blank">linkedin.com/in/zahrajanbazi</a></p>
-      <p>Office: Bahen Centre for Information Technology, 40 St George St, Toronto, ON M5S 2E4, Canada</p>
-    </section>
-
+  
     <!-- CV -->
     <section id="cv">
       <h2>CV</h2>
