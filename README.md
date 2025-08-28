@@ -68,7 +68,7 @@
       <div>
         <h1>Fatemehzahra Janbazi</h1>
         <div class="subtitle">Ph.D. Candidate, Department of Mathematics, University of Toronto</div>
-        <p>I work in arithmetic statistics, arithmetic invariant theory, and arithmetic geometry — with a focus on finiteness theorems for orbits of forms, Selmer group statistics, and geometric models such as K3 surfaces and rational elliptic surfaces.</p>
+        <p>I work in arithmetic statistics, arithmetic invariant theory, and arithmetic geometry.</p>
         <p class="meta">Office: Bahen Centre, 40 St George St, Toronto, ON · Email: <a href="mailto:zahra.janbazi@mail.utoronto.ca">zahra.janbazi@mail.utoronto.ca</a></p>
       </div>
     </section>
