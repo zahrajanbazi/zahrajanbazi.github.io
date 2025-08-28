@@ -37,9 +37,20 @@
     .meta{margin-top:8px;color:var(--muted)}
 
     section{margin-top:40px}
-    section h2{font-size:1.25rem;margin:0 0 12px;border-bottom:2px solid var(--border);padding-bottom:6px;color:var(--accent)}
-    /* Override specific headings to black */
-    #education h2, #preprints h2, #talks h2 {color:#000;}
+    section h2{
+      font-size:1.25rem;
+      margin:0 0 12px;
+      border-bottom:2px solid var(--border);
+      padding-bottom:6px;
+      color:var(--accent);
+    }
+    /* Force specific headings to black */
+    #education h2,
+    #preprints h2,
+    #talks h2,
+    #cv h2 {
+      color:#000 !important;
+    }
 
     ul{margin:8px 0 0;padding-left:1.1rem}
     li{margin:8px 0}
@@ -61,7 +72,6 @@
       <a href="#education">Education</a>
       <a href="#preprints">Preprints</a>
       <a href="#talks">Talks</a>
-      <a href="#contact">Contact</a>
       <a href="#cv">CV</a>
     </nav>
   </header>
@@ -106,10 +116,10 @@
         <li><strong>Lodha Mathematical Sciences Institute Arithmetic Statistics Workshop</strong>. Mumbai, India — Aug 2025. <a href="https://lmsi.org/arithmetic-statistics-workshop" target="_blank">program</a></li>
         <li><strong>UCalgary Algebra and Number Theory Seminar</strong>. University of Calgary, Canada — Apr 2025.</li>
         <li><strong>Waterloo Number Theory Seminar</strong>. University of Waterloo, Canada — Apr 2025.</li>
+        <li><strong>Junior Number Theory Seminar</strong>. University of Toronto, Canada — Mar 2025.</li>
         <li><strong>CMS Winter Meeting</strong>. Canadian Mathematical Society, Toronto, Canada — Dec 2024. <a href="https://www2.cms.math.ca/Events/winter24/abs/efn" target="_blank">abstracts</a></li>
       </ul>
     </section>
-
 
     <!-- CV -->
     <section id="cv">
@@ -129,5 +139,3 @@
   </script>
 </body>
 </html>
-
-
