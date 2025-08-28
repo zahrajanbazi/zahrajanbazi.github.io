@@ -10,7 +10,6 @@
   <meta property="og:type" content="website"/>
   <style>
     :root{
-      /* darkpurple from CV: rgb(0.35,0,0.35) ≈ #590059 */
       --accent:#590059;
       --bg:#ffffff;
       --fg:#111113;
@@ -21,14 +20,12 @@
     }
     html{scroll-behavior:smooth}
     body{margin:0;font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; color:var(--fg); background:var(--bg)}
-    /* Top nav (Ashvin-style) */
     header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
     .nav{max-width:var(--maxw);margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
     .brand{font-weight:800;letter-spacing:.2px;color:var(--accent)}
     .spacer{flex:1 1 auto}
     .nav a{color:var(--fg);text-decoration:none;padding:6px 10px;border-radius:8px}
     .nav a:hover{background:var(--card)}
-
     .wrap{max-width:var(--maxw);margin:0 auto;padding:24px 16px 80px}
     .hero{display:grid;grid-template-columns:160px 1fr;gap:20px;align-items:center;margin-top:18px}
     .hero img{width:160px;height:160px;object-fit:cover;border-radius:16px;border:1px solid var(--border)}
@@ -37,7 +34,6 @@
     .meta{margin-top:8px;color:var(--muted)}
     .meta a{color:var(--accent);text-decoration:none}
     .meta a:hover{text-decoration:underline}
-
     section{margin-top:40px}
     section h2{font-size:1.25rem;margin:0 0 12px;color:var(--accent);border-bottom:2px solid var(--border);padding-bottom:6px}
     p{margin:10px 0}
@@ -45,12 +41,8 @@
     li{margin:8px 0}
     a{color:var(--accent)}
     .note{background:var(--card);border:1px solid var(--border);padding:10px 12px;border-radius:10px}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-    .card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px}
-
     footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--border);color:var(--muted)}
-
-    @media (max-width:720px){.hero{grid-template-columns:1fr}.hero img{width:120px;height:120px}.grid{grid-template-columns:1fr}}
+    @media (max-width:720px){.hero{grid-template-columns:1fr}.hero img{width:120px;height:120px}}
   </style>
 </head>
 <body>
@@ -60,10 +52,10 @@
       <div class="brand">Fatemehzahra&nbsp;Janbazi</div>
       <div class="spacer"></div>
       <a href="#about">About</a>
+      <a href="#education">Education</a>
       <a href="#preprints">Preprints</a>
       <a href="#talks">Talks</a>
       <a href="#teaching">Teaching</a>
-      <a href="#awards">Honors</a>
       <a href="#contact">Contact</a>
       <a href="#cv">CV</a>
     </nav>
@@ -81,6 +73,15 @@
       </div>
     </section>
 
+    <!-- Education -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>University of Toronto</strong>, Toronto, Canada — Ph.D. in Mathematics (Supervisor: Prof. Arul Shankar). Sep 2021 – Ongoing.</li>
+        <li><strong>Sharif University of Technology</strong>, Tehran, Iran — B.Sc. in Mathematics (GPA 4.00/4.00). Sep 2016 – Jul 2021.</li>
+      </ul>
+    </section>
+
     <!-- Preprints -->
     <section id="preprints">
       <h2>Preprints</h2>
@@ -90,28 +91,6 @@
         <li><strong>A unified finiteness theorem for curves</strong>. F. Janbazi, F. Sajadi. Preprint, 2025. <a href="https://arxiv.org/abs/2505.09804" target="_blank" rel="noopener">arXiv:2505.09804</a></li>
         <li><strong>Finiteness theorems for some representations of GL<sub>3</sub></strong>. F. Janbazi, A. Shankar. Preprint, 2025. <a href="https://arxiv.org/abs/2505.05641" target="_blank" rel="noopener">arXiv:2505.05641</a></li>
       </ul>
-    </section>
-
-    <!-- Honors & Awards -->
-    <section id="awards">
-      <h2>Honors and Awards</h2>
-      <div class="grid">
-        <div class="card">
-          <strong>Mary H. Beatty Fellowship</strong>, University of Toronto — Sep 2025<br/>
-          $10,000 award for academic excellence
-        </div>
-        <div class="card">
-          <strong>Blyth Fellowship</strong>, University of Toronto — Sep 2021, 2022, 2023, 2024, 2025<br/>
-          $10,000 per year for academic excellence
-        </div>
-        <div class="card">
-          <strong>Ranked 1st</strong> in Mathematics and Double Major, Sharif University of Technology — 2016–2021<br/>
-          1st among 50 in Mathematics; 1st among 140 in Petroleum Engineering
-        </div>
-        <div class="card">
-          <strong>Bronze Medal</strong>, National Mathematical Olympiad — Aug 2015
-        </div>
-      </div>
     </section>
 
     <!-- Talks -->
@@ -131,21 +110,12 @@
       <h2>Teaching Experience</h2>
       <ul>
         <li><strong>Linear Algebra II (MAT224H1S)</strong> — University of Toronto, 2024–2025. Course instructor: lectures, guided learning, grading, office hours.</li>
-        <li><strong>Calculus I &amp; II (MAT135, MAT136, MAT235)</strong> — University of Toronto, 2022–2023. Tutorials, grading, student support (online &amp; in‑person).</li>
+        <li><strong>Calculus I &amp; II (MAT135, MAT136, MAT235)</strong> — University of Toronto, 2022–2023. Tutorials, grading, student support (online &amp; in-person).</li>
         <li><strong>Introduction to Topology (MAT327H1F/Y)</strong> — University of Toronto, 2022–2024. Tutorials, grading.</li>
         <li><strong>Introduction to Number Theory (MAT315H1F/S)</strong> — University of Toronto, 2023–2024. Tutorials, grading.</li>
         <li><strong>Groups and Symmetries (MAT301H1Y)</strong> — University of Toronto, 2022. Tutorials, support.</li>
         <li><strong>Linear Algebra I (MAT223H1S)</strong> — University of Toronto, 2022. Tutorials, grading.</li>
-        <li><strong>Math Learning Centre (MLC)</strong> — University of Toronto, 2022–2023. Problem‑solving tutoring.</li>
-      </ul>
-    </section>
-
-    <!-- Education (compact) -->
-    <section id="education">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>University of Toronto</strong>, Toronto, Canada — Ph.D. in Mathematics (Supervisor: Prof. Arul Shankar). Sep 2021 – Ongoing.</li>
-        <li><strong>Sharif University of Technology</strong>, Tehran, Iran — B.Sc. in Mathematics (GPA 4.00/4.00). Sep 2016 – Jul 2021.</li>
+        <li><strong>Math Learning Centre (MLC)</strong> — University of Toronto, 2022–2023. Problem-solving tutoring.</li>
       </ul>
     </section>
 
