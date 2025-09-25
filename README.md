@@ -3,11 +3,16 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Fatemehzahra Janbazi</title>
+  <title>Fatemehzahra Janbazi — Mathematician, University of Toronto</title>
   <meta name="description" content="Ph.D. candidate in Mathematics at the University of Toronto — research, preprints, talks, teaching, and contact."/>
   <meta property="og:title" content="Fatemehzahra Janbazi"/>
   <meta property="og:description" content="Ph.D. candidate in Mathematics at the University of Toronto — research, preprints, talks, teaching, and contact."/>
   <meta property="og:type" content="website"/>
+  <!-- SEO additions -->
+  <link rel="canonical" href="https://zahrajanbazi.github.io/"/>
+  <meta property="og:url" content="https://zahrajanbazi.github.io/"/>
+  <meta name="twitter:card" content="summary"/>
+
   <style>
     :root{
       --accent:#590059;
@@ -43,12 +48,25 @@
     .note{background:var(--card);border:1px solid var(--border);padding:10px 12px;border-radius:10px}
     footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--border);color:var(--muted)}
     @media (max-width:720px){.hero{grid-template-columns:1fr}.hero img{width:120px;height:120px}}
+
+    /* Accessibility additions */
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+    .skip-link {
+      position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden;
+    }
+    .skip-link:focus {
+      left:16px; top:10px; width:auto; height:auto; padding:8px 12px;
+      background:#000; color:#fff; border-radius:8px;
+    }
   </style>
 </head>
 <body>
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
   <!-- Top navigation -->
   <header>
-    <nav class="nav">
+    <nav class="nav" aria-label="Primary">
       <div class="brand">Fatemehzahra&nbsp;Janbazi</div>
       <div class="spacer"></div>
       <a href="#about">About</a>
@@ -61,7 +79,7 @@
     </nav>
   </header>
 
-  <main class="wrap">
+  <main id="main" class="wrap">
     <!-- Hero -->
     <section class="hero" id="about">
       <img src="https://placehold.co/320x320?text=ZJ" alt="Portrait placeholder for Fatemehzahra Janbazi"/>
