@@ -3,15 +3,30 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Fatemehzahra Janbazi — Mathematician, University of Toronto</title>
-  <meta name="description" content="Ph.D. candidate in Mathematics at the University of Toronto — research, preprints, talks, teaching, and contact."/>
-  <meta property="og:title" content="Fatemehzahra Janbazi"/>
-  <meta property="og:description" content="Ph.D. candidate in Mathematics at the University of Toronto — research, preprints, talks, teaching, and contact."/>
-  <meta property="og:type" content="website"/>
+  <title>Fatemehzahra (Zahra) Janbazi — Mathematician, University of Toronto</title>
+  <meta name="description" content="Fatemehzahra (Zahra) Janbazi — Ph.D. candidate in Mathematics at the University of Toronto. Research, preprints, talks, teaching, and contact."/>
+  <meta property="og:title" content="Fatemehzahra (Zahra) Janbazi"/>
+  <meta property="og:description" content="Fatemehzahra (Zahra) Janbazi — Ph.D. candidate in Mathematics at the University of Toronto. Research, preprints, talks, teaching, and contact."/>
+ <meta property="og:type" content="website"/>
   <!-- SEO additions -->
   <link rel="canonical" href="https://zahrajanbazi.github.io/"/>
   <meta property="og:url" content="https://zahrajanbazi.github.io/"/>
   <meta name="twitter:card" content="summary"/>
+  
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Fatemehzahra Janbazi",
+  "alternateName": "Zahra Janbazi",
+  "url": "https://zahrajanbazi.github.io/",
+  "affiliation": {"@type":"CollegeOrUniversity","name":"University of Toronto"},
+  "sameAs": [
+    "https://arxiv.org/search/?searchtype=author&query=Janbazi%2C+F",
+    "https://www.linkedin.com/in/zahrajanbazi"
+  ]
+}
+</script>
 
   <style>
     :root{
@@ -84,7 +99,7 @@
     <section class="hero" id="about">
       <img src="https://placehold.co/320x320?text=ZJ" alt="Portrait placeholder for Fatemehzahra Janbazi"/>
       <div>
-        <h1>Fatemehzahra Janbazi</h1>
+        <h1>Fatemehzahra (Zahra) Janbazi</h1>
         <div class="subtitle">Ph.D. Candidate, Department of Mathematics, University of Toronto</div>
         <p>I work in arithmetic statistics, arithmetic invariant theory, and arithmetic geometry.</p>
         <p class="meta">Office: Bahen Centre, 40 St George St, Toronto, ON · Email: <a href="mailto:zahra.janbazi@mail.utoronto.ca">zahra.janbazi@mail.utoronto.ca</a></p>
