@@ -115,7 +115,14 @@
         <li><strong>Sharif University of Technology</strong>, Tehran, Iran — B.Sc. in Mathematics (GPA 4.00/4.00). Sep 2016 – Jul 2021.</li>
       </ul>
     </section>
-
+<!-- Appointments -->
+<section id="appointments">
+  <h2>Appointments</h2>
+  <ul>
+    <li><strong>Hirzebruch Research Instructor</strong>, Hausdorff Center for Mathematics (HCM) and Max Planck Institute for Mathematics (MPIM), Bonn, Germany — Sep 2026 – Aug 2027.</li>
+    <li><strong>Hermann Weyl Instructorship</strong>, ETH Zürich, Zürich, Switzerland — Sep 2027 – Aug 2030.</li>
+  </ul>
+</section>
     <!-- Preprints -->
     <section id="preprints">
       <h2>Preprints</h2>
