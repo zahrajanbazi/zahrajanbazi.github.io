@@ -103,7 +103,7 @@
         <h1>Fatemehzahra (Zahra) Janbazi</h1>
         <div class="subtitle">Ph.D. Candidate, Department of Mathematics, University of Toronto</div>
         <p>I work in arithmetic statistics, arithmetic invariant theory, and arithmetic geometry.</p>
-        <p class="meta">Office: Bahen Centre, 40 St George St, Toronto, ON · Email: <a href="mailto:zahra.janbazi@mail.utoronto.ca">zahra.janbazi@mail.utoronto.ca</a></p>
+        <p class="meta">Office: MZ, Room 1.014, University of Bonn · Email: <a href="mailto:fjanbazi@uni-bonn.de">fjanbazi@uni-bonn.de</a></p> href="mailto:zahra.janbazi@mail.utoronto.ca">zahra.janbazi@mail.utoronto.ca</a></p>
       </div>
     </section>
 
@@ -163,9 +163,9 @@
     <!-- Contact / CV / Skills -->
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:zahra.janbazi@mail.utoronto.ca">zahra.janbazi@mail.utoronto.ca</a></p>
+      <p>Email: <a href="mailto:fjanbazi@uni-bonn.de">fjanbazi@uni-bonn.de</a></p>
       <p>LinkedIn: <a href="https://linkedin.com/in/zahrajanbazi" target="_blank" rel="noopener">linkedin.com/in/zahrajanbazi</a></p>
-      <p>Office: Bahen Centre for Information Technology, 40 St George St, Toronto, ON M5S 2E4, Canada</p>
+      <<p>Office: MZ, Room 1.014, University of Bonn, Bonn, Germany</p>
     </section>
 
     <section id="cv">
